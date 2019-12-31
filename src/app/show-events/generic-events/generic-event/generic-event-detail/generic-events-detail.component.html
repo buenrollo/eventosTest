@@ -1,8 +1,7 @@
 <div mat-dialog-content>
-  <div *ngIf="event.info.difficulty || event.info.timeEnd || event.info.description">
+  <div *ngIf="event.info.timeEnd || event.info.description">
     <p *ngIf="event.info.description">{{event.info.description}}</p>
     <p *ngIf="event.info.timeEnd">Terminará a las {{event.info.timeEnd}}.</p>
-    <p *ngIf="event.info.difficulty"><b>Dificultad</b>: {{event.info.difficulty}}</p>
   </div>
   <div>
     <h2 mat-dialog-title><b>Participantes:</b></h2>
