@@ -18,11 +18,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run the next command:
 
-`ng build --prod --base-href "https://valenciaybuenrollo.github.io/quedadas/"`
+`ng build --prod --base-href "https://buenrollo.github.io/eventos/"`
 
 for test:
 
-`ng build --prod --base-href "https://valenciaybuenrollo.github.io/quedadasTest/"`
+`ng build --prod --base-href "https://buenrollo.github.io/eventosTest/"`
 
 ## Running unit tests
 
